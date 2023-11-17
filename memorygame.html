@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <div class="titleHeader">
+          <div class="imgcontainer">
+            <div id="imgWrapper">
+            </div>
+
+          </div>
+        </div>
+    <div class = "tiles"> </div>
+    <button id="resetButton">Reset Game</button>
+
+    <div id="winModal" style="display:none; position:fixed; left:0; top:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.5); justify-content:center; align-items:center;">
+        <div style="background-color:white; padding:20px; border-radius:5px;">
+            <h2>You Win!</h2>
+            <div id="winImg"></div>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>

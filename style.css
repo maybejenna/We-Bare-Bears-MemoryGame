@@ -1,0 +1,116 @@
+html {
+  background-color: #e3e2f5; 
+  background-image: url('images/23e15ffc1c1e72bdc9ed3f1962eabbef.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 2em;
+  margin: 0 auto;
+  width: 90%;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: 2em;
+}
+
+#imgWrapper {
+  background-image: url('images/We_Bare_Bears_wordmark.svg-1.png');
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px; 
+  height: 200px;
+}
+
+h1 { 
+  background-color: #c4e2b7 ;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  color: #487391; 
+  font-size: 100px;
+  width: 600px;
+  height: 125px; 
+  border-radius: 30px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 1em;
+  border-radius: 15px ;
+  border-style: none;
+  height: 120px;
+  width: 250px; 
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #CC644B; 
+  background-color: #fff4d2;
+
+}
+
+button:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  background-color:#CC644B; 
+}
+
+.tiles {
+  margin: 48px auto; 
+  width: max-content; 
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  gap: 50px; 
+  background-color: rgba(72, 115, 145, 0.7); 
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+.tile{
+  height: 200px; 
+  border: 10px solid #c4e2b7;
+  border-radius: 25px;
+  background-color: #ffffff;
+  background-image: url("images/Stillimage.png");
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#winModal {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+#winImg{
+  background-image: url("images/we-bare-bears-yeah.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 80px;
+  border-radius: 10px;
+  margin: auto;
+
+}
